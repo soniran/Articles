@@ -1,1 +1,5 @@
+Title: AB tesing requires multistep process, how to automate testing ml system
 
+-- For Short term campaign, the cost for waiting for the A/B test results make MAB a better choice so that large gains can be made by exploiting as early as possible.
+-- Ad slots are constant and small in number while there can be 100s of ads eligible for displaying, We want to know which ad has highest/top n CTR.
+-- If there are multiple components in a page to continuously optimize
