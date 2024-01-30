@@ -1,3 +1,6 @@
+1. Six Step Problem Solving Model
+This technique is the simplest and easiest to use. As the name suggests, this technique uses six steps to solve a problem, which are:
+
 Have a clear and concise problem definition.
 
 Study the roots of the problem.
@@ -9,3 +12,49 @@ Examine the possible solution and choose the best one.
 Implement the solution effectively.
 
 Evaluate the results.
+
+This model follows the mindset of continuous development and improvement. So, on step six, if your results didn’t turn out the way you wanted, go back to step four and choose another solution (or to step one and try to define the problem differently).
+
+My favorite part about this simple technique is how easy it is to alter based on the specific problem you’re attempting to solve. 
+
+
+
+ The Drill Down Technique
+The drill down technique is more suitable for large, complex problems with multiple collaborators. The whole purpose of using this technique is to break down a problem to its roots to make finding solutions that much easier. To use the drill down technique, you first need to create a table. The first column of the table will contain the outlined definition of the problem, followed by a second column containing the factors causing this problem. Finally, the third column will contain the cause of the second column's contents, and you’ll continue to drill down on each column until you reach the root of the problem.
+
+Once you reach the root causes of the symptoms, you can begin developing solutions for the bigger problem.
+
+The Cynefin Framework
+The Cynefin framework, like the rest of the techniques, works by breaking down a problem into its root causes to reach an efficient solution. We consider the Cynefin framework a higher-level approach because it requires you to place your problem into one of five contexts.
+
+Obvious Contexts. In this context, your options are clear, and the cause-and-effect relationships are apparent and easy to point out.
+Complicated Contexts. In this context, the problem might have several correct solutions. In this case, a clear relationship between cause and effect may exist, but it’s not equally apparent to everyone.
+Complex Contexts. If it’s impossible to find a direct answer to your problem, then you’re looking at a complex context. Complex contexts are problems that have unpredictable answers. The best approach here is to follow a trial and error approach.
+Chaotic Contexts. In this context, there is no apparent relationship between cause and effect and our main goal is to establish a correlation between the causes and effects.
+Disorder. The final context is disorder, the most difficult of the contexts to categorize. The only way to diagnose disorder is to eliminate the other contexts and gather further information.
+
+5. The 5 Whys Technique
+Our final technique is the 5 Whys or, as I like to call it, the curious child approach. I think this is the most well-known and natural approach to problem solving.
+
+This technique follows the simple approach of asking “why” five times — like a child would. First, you start with the main problem and ask why it occurred. Then you keep asking why until you reach the root cause of said problem. (Fair warning, you may need to ask more than five whys to find your answer.)
+
+2. Eight Disciplines of Problem Solving
+The eight disciplines of problem solving offers a practical plan to solve a problem using an eight-step process. You can think of this technique as an extended, more-detailed version of the six step problem-solving model.
+
+Each of the eight disciplines in this process should move you a step closer to finding the optimal solution to your problem. So, after you’ve got the prerequisites of your problem, you can follow  disciplines D1-D8.
+
+D1: Put together your team. Having a team with the skills to solve the project can make moving forward much easier.
+
+D2: Define the problem. Describe the problem using quantifiable terms: the who, what, where, when, why and how.
+
+D3: Develop a working plan.
+
+D4: Determine and identify root causes. Identify the root causes of the problem using cause and effect diagrams to map causes against their effects.
+
+D5: Choose and verify permanent corrections. Based on the root causes, assess the work plan you developed earlier and edit as needed.
+
+D6: Implement the corrected action plan.
+
+D7: Assess your results.
+
+D8: Congratulate your team. After the end of a project, it’s essential to take a step back and appreciate the work you’ve all done before jumping into a new project.
