@@ -1,0 +1,21 @@
+General:
+Learning Curve
+Regularization
+
+Loss functions--Linear/Non-Linear, Discriminative/Generative
+Classification Loss functions
+Ranking Loss functions
+Clustering Loss functions
+Forecasting Loss functions
+
+Optimization:
+Stocastic Gradient 
+
+statistical Inference:
+MLE - minimizing likelihood estimation
+MAP - maximizing .. posterior
+
+Data preprocessing:
+Data Cleaning 
+Data wrangling
+EDA-Univariate Analysis:descriptive measures of centrality,spead,skewness, Bivariate Analysis:statistical tests
