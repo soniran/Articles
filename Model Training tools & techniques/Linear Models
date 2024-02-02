@@ -1,0 +1,40 @@
+Linear Regression Example:
+Ordinary Least square-> minimize residual sum of squares between observed responses & responses predicted by linear approximization
+SSError      sum(y-pred)2 sum of squared errors
+SSTotal      sum(y-mean(y))2
+SSRegression sum(pred - mean(y))2
+SST = SSR+SSE
+coefficient of determination = R2= SSR/SST
+from sklearn import linear_model.LinearRegression()
+from sklearn.metrics import mean_squared_error,r2_score
+ols=LinearRegression()
+ols.coeff_
+The least squares solution is computed using the singular value decomposition of X. 
+If X is a matrix of shape (n_samples, n_features) this method has a cost of O(n_samples*n_features^2)
+where n_samples>=n_features
+
+Non-negative least squares Example:
+Comparing the regression coefficients between OLS and NNLS, we can observe they are highly correlated (the dashed line is the identity relation), 
+but the non-negative constraint shrinks some to 0. The Non-Negative Least squares inherently yield sparse results
+model=LinearRegression(positive=True)
+from sklearn.model_selection import train_test_split
+X_tr,X_test,y_tr,y_test=train_test_split(X,y,test_size=0.5)
+
+Ridge regression & classification
+ols doesnot have regularization
+Adding l2 regularization with ols i.e. imposing penalty on size of coefficients
+complexity parameter alpha controls amount of skrinkage
+More skrinkage-> the coefficients become more robust to collinearity.
+model = linear_model.Ridge(alpha=0.5,solver=lbfgs(if positive =True))/cholesky(id input array is not sparse)/sparse_cg)
+model = RidgeClassifier
+
+
+
+
+
+
+
+
+
+
+
