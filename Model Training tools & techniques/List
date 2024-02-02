@@ -1,5 +1,5 @@
 General:
-Learning Curve
+Model Selection:Learning Curve, Validation Curve, KFoldStratefiedCV, AIC, BIC
 Regularization
 
 Loss functions--Linear/Non-Linear, Discriminative/Generative
@@ -13,9 +13,11 @@ Stocastic Gradient
 
 statistical Inference:
 MLE - minimizing likelihood estimation
-MAP - maximizing .. posterior
+MAP - maximizing apriori
 
 Data preprocessing:
-Data Cleaning 
-Data wrangling
-EDA-Univariate Analysis:descriptive measures of centrality,spead,skewness, Bivariate Analysis:statistical tests
+Data Cleaning : vaccuu, valid(outlier,occ is positive), accurate(birthday as 1st-Jan, data skewed bcoz of correctness),complete(missing),consistent,unique,uniform  
+Data wrangling 
+EDA-
+Univariate Analysis:descriptive measures of centrality,spead,skewness, 
+Bivariate Analysis:statistical tests
