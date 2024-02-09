@@ -1,1 +1,38 @@
+Datasets:
+univariate time series 
+multivariate time series 
 
+Forecasting:
+Making predictions about the future is called extrapolation in the classical statistical handling of time series data.
+More modern fields focus on the topic and refer to it as time series forecasting.
+Forecasting involves taking models fit on historical data and using them to predict future observations.
+
+Understanding data:
+Level. The baseline value for the series if it were a straight line.
+Trend. The optional and often linear increasing or decreasing behavior of the series over time.
+Seasonality. The optional repeating patterns or cycles of behavior over time.
+Noise. The optional variability in the observations that cannot be explained by the model.
+
+How much data do you have available and are you able to gather it all together? More data is often more helpful, offering greater opportunity for exploratory data analysis, model testing and tuning, and model fidelity.
+What is the time horizon of predictions that is required? Short, medium or long term? Shorter time horizons are often easier to predict with higher confidence.
+Can forecasts be updated frequently over time or must they be made once and remain static? Updating forecasts as new information becomes available often results in more accurate predictions.
+At what temporal frequency are forecasts required? Often forecasts can be made at a lower or higher frequencies, allowing you to harness down-sampling, and up-sampling of data, which in turn can offer benefits while modeling.
+
+ cleaning, scaling, and even transformation.
+
+Frequency. Perhaps data is provided at a frequency that is too high to model or is unevenly spaced through time requiring resampling for use in some models.
+Outliers. Perhaps there are corrupt or extreme outlier values that need to be identified and handled.
+Missing. Perhaps there are gaps or missing data that need to be interpolated or imputed.
+
+Feature engineering:
+Lagged values,aggregated lagged values
+Normalize,standardize
+Resample: DownSample, UpSample
+Interpolation
+
+resample = series.resample('Q')
+quarterly_mean_sales = resample.mean()
+
+Train-Test split that respect temporal order of observations.
+Multiple Train-Test splits that respect temporal order of observations.
+Walk-Forward Validation where a model may be updated each time step new data is received.
